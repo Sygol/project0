@@ -1,0 +1,122 @@
+.players-header-smaller, .players-header, .history-header, .header, .main-header {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #ee9ca7;
+  color: #F0F0F0;
+}
+
+.main_nav {
+  background-color: #F0F0F0;
+  width: 25%;
+  margin: 2rem auto;
+  font-size: 1.4rem;
+  border-radius: 30px;
+}
+.main_nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.main_nav ul li {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+.main_nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.main_nav ul li a:hover {
+  text-decoration: underline;
+  color: #A9A9A9;
+}
+
+#tennis_history {
+  width: 95%;
+}
+
+.img_desc {
+  text-align: center;
+}
+
+.main-header {
+  margin-top: 5%;
+}
+
+.history-header {
+  text-align: left;
+}
+
+.container {
+  font-size: 0.95rem;
+}
+
+.navbar {
+  width: 100%;
+  border-bottom: 1px solid #A9A9A9;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.players-header {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.players-header-smaller {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.tournaments_list {
+  padding-left: 5rem;
+}
+
+.tournaments-row {
+  width: 80%;
+  margin: 0 auto;
+}
+
+table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  background: #F0F0F0;
+}
+
+td, th {
+  border: 1px solid #A9A9A9;
+  padding: 0.5rem 1rem;
+}
+
+th {
+  font-weight: 600;
+}
+
+.grand_slams {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .main_nav {
+    width: 35%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
